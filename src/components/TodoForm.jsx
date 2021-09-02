@@ -6,6 +6,7 @@ export default function TodoForm({add}){
     const inputRef = useRef()
     function click(){
         add(inputRef.current.value);
+        inputRef.current.value = '';
     }
 
     return (

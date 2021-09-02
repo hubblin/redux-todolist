@@ -1,24 +1,38 @@
 import "../styles/todolist.scss"
-import "@material-ui/icons"
 
-export default function TodoList({todos}){
-    function click(){
-        
+
+export default function TodoList({todos, complete, deleteTodo}){
+    function click(index){
+        complete(index);
     }
+
+    function delete_todo(index){
+        deleteTodo(index);
+    }
+
+    
+
     return (
         <ul className="todolist-container">
-            {todos.map((todo) => {
+            {todos.map((todo, index) => {
                 return (
-                    <li>
-                        <div className="todo-content">{todo.text}</div>
-                        {todo.done ? 
-                        <div className="todo-done material-icons" onClick={click}>
-                            done
-                        </div> : 
-                        <div className="todo-done material-icons" onClick={click}>
-                            close
+                    <li key={index} draggable='true'>                        
+
+                        <div className="main">                         
+                            {todo.done ? 
+                                <div className="todo-done done material-icons" onClick={() => click(index)}>
+                                    done
+                                </div> : 
+                                <div className="todo-done not-done material-icons" onClick={() => click(index)}>
+                                    close
+                                </div>
+                            }
+                            <div className="todo-content">{todo.text}</div>
+   
                         </div>
-                        }
+                        <div className="delete" onClick={() => delete_todo(index)}>
+                            <i className="material-icons">delete_outline</i>
+                        </div>
                     </li>
                 )
             })}
