@@ -3,23 +3,23 @@ import { addTodo } from './redux/actions';
 import './App.scss';
 import { useSelector, useDispatch} from "react-redux";
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+import TodoListContainer from './containers/TodoListContainer';
+import TodoFormContainer from './containers/TodoFormContainer';
+
 
 function App() {
-  const todos = useSelector((state) => state.todos);
-  const dispatch = useDispatch();
-
-
-  
   return (
     <div className="App">
-      <header className="App-header">
-        <p>{JSON.stringify(todos)}</p>
-        <button onClick={() => {
-          dispatch(addTodo('Hello'))
-        }}>
-          추가
-        </button>
-      </header>
+      <Header/>
+
+      <div className="contents">
+        <TodoFormContainer/>
+        <TodoListContainer/>
+      </div>
+      
+      <Footer/>
     </div>
   );
 }

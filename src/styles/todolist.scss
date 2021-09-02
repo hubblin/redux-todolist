@@ -1,0 +1,17 @@
+.todolist-container{
+    li{
+        background-color: white;
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 6px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .todo-content{
+            max-width: calc(100% - 40px);
+            word-wrap: break-word;
+        }
+    }
+}

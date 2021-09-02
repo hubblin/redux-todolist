@@ -1,0 +1,28 @@
+.todoform-container{
+    display: flex;
+    height: 30px;
+    margin-bottom: 20px;
+    
+    input{
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        border-radius: 0;
+        padding-left: 6px;
+    }
+
+    button{
+        border: none;
+        border-radius: 0;
+        background-color: #072b47;
+        color: white;
+        cursor: pointer;
+        width: 45px;
+
+        &:hover{
+            font-weight: bold;
+            background-color: #041725;
+        }
+    }
+}
