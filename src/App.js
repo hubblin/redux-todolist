@@ -1,22 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect, useContext } from 'react';
+import { addTodo } from './redux/actions';
+import './App.scss';
+import { useSelector, useDispatch} from "react-redux";
+
 
 function App() {
+  const todos = useSelector((state) => state.todos);
+  const dispatch = useDispatch();
+
+
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>{JSON.stringify(todos)}</p>
+        <button onClick={() => {
+          dispatch(addTodo('Hello'))
+        }}>
+          추가
+        </button>
       </header>
     </div>
   );

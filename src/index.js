@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Reset} from 'styled-reset';
+
+import store from './redux/store';
+import {Provider} from 'react-redux';
+
+
+store.subscribe(() => {
+  console.log(store.getState());
+})
+// console.log(store)
+// console.log(store.getState());
+
+
+// store.dispatch(addTodo("ㅎㅇ"));
+// store.dispatch(completeTodo(0));
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
+    <Reset/>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
