@@ -1131,7 +1131,7 @@
     "core-js-pure" "^3.0.0"
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   "integrity" "sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.12.18.tgz"
   "version" "7.12.18"
@@ -1207,11 +1207,6 @@
   "integrity" "sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg=="
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   "version" "10.1.0"
-
-"@emotion/hash@^0.8.0":
-  "integrity" "sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow=="
-  "resolved" "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz"
-  "version" "0.8.0"
 
 "@emotion/is-prop-valid@^0.8.8":
   "integrity" "sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA=="
@@ -1480,730 +1475,6 @@
     "@types/node" "*"
     "@types/yargs" "^16.0.0"
     "chalk" "^4.0.0"
-
-"@material-ui/core@^4.0.0":
-  "integrity" "sha512-sdpgI/PL56QVsEJldwEe4FFaFTLUqN+rd7sSZiRCdx2E/C7z5yK0y/khAWVBH24tXwto7I1hCzNWfJGZIYJKnw=="
-  "resolved" "https://registry.npmjs.org/@material-ui/core/-/core-4.12.3.tgz"
-  "version" "4.12.3"
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-    "@material-ui/styles" "^4.11.4"
-    "@material-ui/system" "^4.12.1"
-    "@material-ui/types" "5.1.0"
-    "@material-ui/utils" "^4.11.2"
-    "@types/react-transition-group" "^4.2.0"
-    "clsx" "^1.0.4"
-    "hoist-non-react-statics" "^3.3.2"
-    "popper.js" "1.16.1-lts"
-    "prop-types" "^15.7.2"
-    "react-is" "^16.8.0 || ^17.0.0"
-    "react-transition-group" "^4.4.0"
-
-"@material-ui/icons@4.11.2":
-  "integrity" "sha512-fQNsKX2TxBmqIGJCSi3tGTO/gZ+eJgWmMJkgDiOfyNaunNaxcklJQFaFogYcFl0qFuaEz1qaXYXboa/bUXVSOQ=="
-  "resolved" "https://registry.npmjs.org/@material-ui/icons/-/icons-4.11.2.tgz"
-  "version" "4.11.2"
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-
-"@material-ui/styles@^4.11.4":
-  "integrity" "sha512-KNTIZcnj/zprG5LW0Sao7zw+yG3O35pviHzejMdcSGCdWbiO8qzRgOYL8JAxAsWBKOKYwVZxXtHWaB5T2Kvxew=="
-  "resolved" "https://registry.npmjs.org/@material-ui/styles/-/styles-4.11.4.tgz"
-  "version" "4.11.4"
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-    "@emotion/hash" "^0.8.0"
-    "@material-ui/types" "5.1.0"
-    "@material-ui/utils" "^4.11.2"
-    "clsx" "^1.0.4"
-    "csstype" "^2.5.2"
-    "hoist-non-react-statics" "^3.3.2"
-    "jss" "^10.5.1"
-    "jss-plugin-camel-case" "^10.5.1"
-    "jss-plugin-default-unit" "^10.5.1"
-    "jss-plugin-global" "^10.5.1"
-    "jss-plugin-nested" "^10.5.1"
-    "jss-plugin-props-sort" "^10.5.1"
-    "jss-plugin-rule-value-function" "^10.5.1"
-    "jss-plugin-vendor-prefixer" "^10.5.1"
-    "prop-types" "^15.7.2"
-
-"@material-ui/system@^4.12.1":
-  "integrity" "sha512-lUdzs4q9kEXZGhbN7BptyiS1rLNHe6kG9o8Y307HCvF4sQxbCgpL2qi+gUk+yI8a2DNk48gISEQxoxpgph0xIw=="
-  "resolved" "https://registry.npmjs.org/@material-ui/system/-/system-4.12.1.tgz"
-  "version" "4.12.1"
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-    "@material-ui/utils" "^4.11.2"
-    "csstype" "^2.5.2"
-    "prop-types" "^15.7.2"
-
-"@material-ui/types@5.1.0":
-  "integrity" "sha512-7cqRjrY50b8QzRSYyhSpx4WRw2YuO0KKIGQEVk5J8uoz2BanawykgZGoWEqKm7pVIbzFDN0SpPcVV4IhOFkl8A=="
-  "resolved" "https://registry.npmjs.org/@material-ui/types/-/types-5.1.0.tgz"
-  "version" "5.1.0"
-
-"@material-ui/utils@^4.11.2":
-  "integrity" "sha512-Uul8w38u+PICe2Fg2pDKCaIG7kOyhowZ9vjiC1FsVwPABTW8vPPKfF6OvxRq3IiBaI1faOJmgdvMG7rMJARBhA=="
-  "resolved" "https://registry.npmjs.org/@material-ui/utils/-/utils-4.11.2.tgz"
-  "version" "4.11.2"
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-    "prop-types" "^15.7.2"
-    "react-is" "^16.8.0 || ^17.0.0"
-
-"@material/animation@^12.0.0":
-  "integrity" "sha512-PfRHehbW6xrNaAb5RELmyxn9+pGTYwzxUnT43TdmOOTN+J45MRH8c90ZSdczich6gp7tgyTQsd3HtB5yRgBsIA=="
-  "resolved" "https://registry.npmjs.org/@material/animation/-/animation-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"@material/auto-init@^12.0.0":
-  "integrity" "sha512-DYvyUOzzv6tn3ECQ9xKXu8Nm/FASicIks08pka3IsSRfLQ4eXGo+EYt/ryqYJ6k8WZF2pkGtH/8C82LIF202Yw=="
-  "resolved" "https://registry.npmjs.org/@material/auto-init/-/auto-init-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/banner@^12.0.0":
-  "integrity" "sha512-VjPsvikIlu0pzo17L47ATmptJIAdi9iEa23TJ5IfxiybTFMhHeupjbjQlOwcBjAIEWKWquRgbLpDf280WRvzzw=="
-  "resolved" "https://registry.npmjs.org/@material/banner/-/banner-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/button" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/base@^12.0.0":
-  "integrity" "sha512-LcAQGFhuGM5B9BJQPoDYXhka+gkKvjKN6HdmCpKq55EkUoHeEnbu6IT2MOQjhcULTlQdcdGP77YNNGYdv3fGsA=="
-  "resolved" "https://registry.npmjs.org/@material/base/-/base-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"@material/button@^12.0.0":
-  "integrity" "sha512-+Vo9+9nsMy8XZUC4E4CDxmjPAAGCogoIskQSduceuZf8Zdoxy3mQfmmQqWaxtBieXJScybpQyw55RRC3MWu6fg=="
-  "resolved" "https://registry.npmjs.org/@material/button/-/button-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/tokens" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/card@^12.0.0":
-  "integrity" "sha512-qOzXAKTF/iV/t+HT8KmG2rfB4Otcd3z7e3mxdnnmZKb1tCxAkoKLnwJWDuPayySWN7x17Dqjl29Sr23i6YxLdw=="
-  "resolved" "https://registry.npmjs.org/@material/card/-/card-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/checkbox@^12.0.0":
-  "integrity" "sha512-lYPhS+6la2f6E8xsmAQtTCb6gKFqlSPMzvlnf/2+BS6P9iOracRYcWeO9jeze60m0gFiF8rk4Y1Z32Mkx7yPQw=="
-  "resolved" "https://registry.npmjs.org/@material/checkbox/-/checkbox-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/chips@^12.0.0":
-  "integrity" "sha512-I+OustjFSkJDq2AXg909UXcf4SGCRItmE4s742gKIjDFxzpTKk1ualbWAh/S3n7Q3JzCVD5P34tuJnOB+OddfA=="
-  "resolved" "https://registry.npmjs.org/@material/chips/-/chips-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/checkbox" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/circular-progress@^12.0.0":
-  "integrity" "sha512-3Xi5la6UTS0KhYzxVDqRjQ7uxqeci+MjH8w+0yMoIsw9/gdtZ5S4dYQ0U8/FaWBTzW6nmGxI4zQ3Q0ySFpGRgA=="
-  "resolved" "https://registry.npmjs.org/@material/circular-progress/-/circular-progress-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/progress-indicator" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/data-table@^12.0.0":
-  "integrity" "sha512-bJVQqJLWhqiutgPssm3CcstUv/pKc2xLCjI4WXAE64Y0N9Dv7AvwScK6/1nnr6+GR10ky3xoMeGHIElBhLeRsg=="
-  "resolved" "https://registry.npmjs.org/@material/data-table/-/data-table-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/checkbox" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/icon-button" "^12.0.0"
-    "@material/linear-progress" "^12.0.0"
-    "@material/list" "^12.0.0"
-    "@material/menu" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/select" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/density@^12.0.0":
-  "integrity" "sha512-7kWsFPiiTcw5FKdm6zvMp3ygLhHINXMScrUcRTW9RoIzC6EgWrzF/UC1XEt48Yg4Ux6K/98QJ4B53CoVv1Z/OQ=="
-  "resolved" "https://registry.npmjs.org/@material/density/-/density-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"@material/dialog@^12.0.0":
-  "integrity" "sha512-LusDwYTmZwmHEIFmoL0LC0W/uotHgGxbvXZY30BUF33IgxKc7e/NC9Tr8nmEAHLfVpaInusEn9bqPckvKfyD+w=="
-  "resolved" "https://registry.npmjs.org/@material/dialog/-/dialog-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/button" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/icon-button" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/dom@^12.0.0":
-  "integrity" "sha512-vaQi+bNMv3UMSG2wwMEYen36Or32XY/djGmes5KRi8TxDBzAH9HNuE9CxYBrZqYzYFrAIfvXyEIZhlhY+3WLlg=="
-  "resolved" "https://registry.npmjs.org/@material/dom/-/dom-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/feature-targeting" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/drawer@^12.0.0":
-  "integrity" "sha512-gQBowi3Zdmfa6w/HboCkM64h2APLndVccV9Ub6a4AVpheOtzzfJgS+WlTadwSKjcabL0AzJ4U7itecz6FvespQ=="
-  "resolved" "https://registry.npmjs.org/@material/drawer/-/drawer-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/list" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/elevation@^12.0.0":
-  "integrity" "sha512-PWTACGNus2cdNL6V6+AhT3tC+YKyP2ujQn+izXNGXLXFc/FHk+lHLvwwr71D7bApy2hPMndHJ4DtF36qfAM1tw=="
-  "resolved" "https://registry.npmjs.org/@material/elevation/-/elevation-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/fab@^12.0.0":
-  "integrity" "sha512-6XfU+ZcNej2+eO0TFIyo1eYHEyvGYCSxlgO0P1gXavPNKyGLxkGhQREendxlc1XyAVw2yvAPzrtx3puc/xMd0A=="
-  "resolved" "https://registry.npmjs.org/@material/fab/-/fab-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/tokens" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/feature-targeting@^12.0.0":
-  "integrity" "sha512-BbdYzZmGg886X3gvKPxfM5etNwhmKR4PT33NRc7PTKivCHitre8zjgb7kKW1vRLV4YnB54sp9L7tr/QcbbbXGg=="
-  "resolved" "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"@material/floating-label@^12.0.0":
-  "integrity" "sha512-bOJNxSP8Jd/AJtrMC+1R6azjDWAUsA+4DpYj0TFEKM8s7LS4vulETs+9PoJh++K68haWpkb+Qks1Pa8Vb1F+Vw=="
-  "resolved" "https://registry.npmjs.org/@material/floating-label/-/floating-label-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/form-field@^12.0.0":
-  "integrity" "sha512-es28doVewEhvh/sV1OqJNFpH+vVLRZyGLh5QvqxfGOmozcUb56nQbSAUrOwlK+ZINwdy0fLkZLJvUu8C9H33kg=="
-  "resolved" "https://registry.npmjs.org/@material/form-field/-/form-field-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/icon-button@^12.0.0":
-  "integrity" "sha512-W4lhJWbrT1FGzgBtwqz9MAFyAnx+wQztV0m5XXncDzfjVgfGaXsW/AYEuVijJEFOvIMGbkcszSkjGIOc1T3tXA=="
-  "resolved" "https://registry.npmjs.org/@material/icon-button/-/icon-button-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/image-list@^12.0.0":
-  "integrity" "sha512-njtPGXP5GjpLsQsU+/BWRerkAGXEWrp39ioBGBHp+pD+JvCvxLQoRwsWWLPKLJtk5RrbI4U64d9UTbMHm/a1NA=="
-  "resolved" "https://registry.npmjs.org/@material/image-list/-/image-list-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/feature-targeting" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/layout-grid@^12.0.0":
-  "integrity" "sha512-bPIIEL+Ka7hixX0/d+yUK4juyQ0GcYxbT1EGWs1JzmZUzMOfzfNQqsrbo2sIQeN4tSou3wiUgSXsI1/3U+V3tQ=="
-  "resolved" "https://registry.npmjs.org/@material/layout-grid/-/layout-grid-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"@material/line-ripple@^12.0.0":
-  "integrity" "sha512-W18BuAcjTzGfjmfgoyQmxEsXz/D+65tX3H7PTsudEoacxby6BdCNVJWwyRCOSGrzVjmETeNbqHf32oAZgApWXg=="
-  "resolved" "https://registry.npmjs.org/@material/line-ripple/-/line-ripple-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/linear-progress@^12.0.0":
-  "integrity" "sha512-I4Z5fuvddsh8XysnvjK7RnRORN+xIreoWwo8hcPnqN0fgM0NXGFIoRTq2NZi1t1qR+ZvmVgJciNKBg2y/ySqMQ=="
-  "resolved" "https://registry.npmjs.org/@material/linear-progress/-/linear-progress-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/progress-indicator" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/list@^12.0.0":
-  "integrity" "sha512-XV4YbvC+1XP6XgJ9Cj5PVDcu+so6uISeUFSbsdAdD4UDWEYpVtnZiGU9AMzn8e4VXzNVGLOR5Fn1XqX6byWTVg=="
-  "resolved" "https://registry.npmjs.org/@material/list/-/list-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/menu-surface@^12.0.0":
-  "integrity" "sha512-9+DIE1Pfz8uw5kZ5tgvv4T/yog7TOumQMCh6ifMN9m7xqRwxb4TKVC7JBku4m5JPj5ajhZzT2skX0SWDgWJaug=="
-  "resolved" "https://registry.npmjs.org/@material/menu-surface/-/menu-surface-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/menu@^12.0.0":
-  "integrity" "sha512-ZXySzEjMbvQQi64i75kpZDZNiCIVdomxw7QwnPkdD4hxElce+8cSTOalW4nTntg6lA+4utTc8zMIMvxugkrGJA=="
-  "resolved" "https://registry.npmjs.org/@material/menu/-/menu-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/list" "^12.0.0"
-    "@material/menu-surface" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/notched-outline@^12.0.0":
-  "integrity" "sha512-dPtsOh2acyvv/o6daxw0mJSvns8dcqPiL2KO9h23YD81/zM8Mon7Ui7ii84+pOFLnh6JiszMNatGxdlL+dv8RQ=="
-  "resolved" "https://registry.npmjs.org/@material/notched-outline/-/notched-outline-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/floating-label" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/progress-indicator@^12.0.0":
-  "integrity" "sha512-YIY5g3uMpD0W9ivA4FrzRZWM59hgXniJ1KmlHmRSJYzunNqAuX16bAc+lraz6EvFMwIrib0CbHUn6rsUnJBTkg=="
-  "resolved" "https://registry.npmjs.org/@material/progress-indicator/-/progress-indicator-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"@material/radio@^12.0.0":
-  "integrity" "sha512-9HCGS0nxsz4Cvg5TCYv8PcAhVPYllXrS7JxG3y2e3rcrvphKuae7XOG4jvxzHJfI2H5GyvolS6GWRmXUGLgz3Q=="
-  "resolved" "https://registry.npmjs.org/@material/radio/-/radio-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/ripple@^12.0.0":
-  "integrity" "sha512-gxtbZHeRnE93KwkT1oTU07ap3mOJpbLDY7Edlybd4ZF9ar8Pyj0245rf5MKagubzgNBFzOESDEsIjuCfLV1cUw=="
-  "resolved" "https://registry.npmjs.org/@material/ripple/-/ripple-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/rtl@^12.0.0":
-  "integrity" "sha512-JmFyyWr2GFa1ODSsq0jaImj6NprDpts3L3riyvsTQVnJDDKyJwYkyjFbssuIqB9wO3IfVPj5JyTKNoTLraW7dA=="
-  "resolved" "https://registry.npmjs.org/@material/rtl/-/rtl-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/segmented-button@^12.0.0":
-  "integrity" "sha512-2Rlpvr/zPyGEo/C9yp/Fh66PXt7rb57spEyNXKv02h0ls1CAZOZFa8b2hfDMujMQqObUoXDGlBlaoO19bq0lMA=="
-  "resolved" "https://registry.npmjs.org/@material/segmented-button/-/segmented-button-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/select@^12.0.0":
-  "integrity" "sha512-djdR9F7AwzoLpaQza1CHwJDx4xyxha8kiQMw8aNeAxE5ob/RlU2iKOg+8HD+0yH8iHZK8PYpUbnCttiQcHakuw=="
-  "resolved" "https://registry.npmjs.org/@material/select/-/select-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/floating-label" "^12.0.0"
-    "@material/line-ripple" "^12.0.0"
-    "@material/list" "^12.0.0"
-    "@material/menu" "^12.0.0"
-    "@material/menu-surface" "^12.0.0"
-    "@material/notched-outline" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/shape@^12.0.0":
-  "integrity" "sha512-0mvRUPq2esbyivJl3NMdYtHTFOV7EOU+Tob2Y6F2sQ+PJJYpONfEHRo8nakN7fDM3aNSuQUdhG3nbwJghAN1IA=="
-  "resolved" "https://registry.npmjs.org/@material/shape/-/shape-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/feature-targeting" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/slider@^12.0.0":
-  "integrity" "sha512-B02xWlGzTEgR1j350OgxbC3S5Nt/hCOHl4zvd1uDwF0fnbgKQkL5+tFVHJkK8DDX54f/S5TVeKk3xgYJmE+/NA=="
-  "resolved" "https://registry.npmjs.org/@material/slider/-/slider-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/snackbar@^12.0.0":
-  "integrity" "sha512-n3GhuOhFvP8R2fDu5hu1nOgVS7N7wIgTtJ7+cLzSJRsk3ph6D/juPKnWusO+ddjdwLtjVpIoC+jSsE9JKeQW8A=="
-  "resolved" "https://registry.npmjs.org/@material/snackbar/-/snackbar-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/button" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/icon-button" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/switch@^12.0.0":
-  "integrity" "sha512-8h3UICmTVTObLfvUsbfyKRSj88pIXv2EzbB8MQO7rKDEUZtP/Nws/t/+HG2zm2UeXqxBOn96qS4ucKzgxlzPtA=="
-  "resolved" "https://registry.npmjs.org/@material/switch/-/switch-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/tokens" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/tab-bar@^12.0.0":
-  "integrity" "sha512-lfA2RUZo0kwKqc5Pm07n6E1Liqr0pi9EATmmsqswFphIqfKu+ODqgS0o6OAekmeFL5Mny+kJuAOh6i1l1sT8Ug=="
-  "resolved" "https://registry.npmjs.org/@material/tab-bar/-/tab-bar-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/tab" "^12.0.0"
-    "@material/tab-indicator" "^12.0.0"
-    "@material/tab-scroller" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/tab-indicator@^12.0.0":
-  "integrity" "sha512-PAW2n8d1JOUn0OpUAZx8KkH7Oiv1EaZq1fOapk9t4shPruzmrvzDrJ4omN82FhCf5z873EPNzgPa6fD+Rg5pjg=="
-  "resolved" "https://registry.npmjs.org/@material/tab-indicator/-/tab-indicator-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/tab-scroller@^12.0.0":
-  "integrity" "sha512-t/4b9/xJHJBx/qINzOaxn5JKBMoz5NG2FeLeSX4SkigExeVWyAGY+SSw5u/aeVi1BJzXQpsAX2ypbVTgiIMdxw=="
-  "resolved" "https://registry.npmjs.org/@material/tab-scroller/-/tab-scroller-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/tab" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/tab@^12.0.0":
-  "integrity" "sha512-KMJ2Zi5aGzrE6tvs829JppauvZvETweQP6IKBx/vQUXIltIlRirZ5Qb29+zwYABEz1+CxLzQkd1a9XXqHQNNQA=="
-  "resolved" "https://registry.npmjs.org/@material/tab/-/tab-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/tab-indicator" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/textfield@^12.0.0":
-  "integrity" "sha512-YucSKbII4XOhzGbteFzGpPcbl+XQ2+87bm+iJYg2vpiVRGcstEVWceuK99pv0jXm9eXflDu2vBJV620azmeBQg=="
-  "resolved" "https://registry.npmjs.org/@material/textfield/-/textfield-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/floating-label" "^12.0.0"
-    "@material/line-ripple" "^12.0.0"
-    "@material/notched-outline" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/theme@^12.0.0":
-  "integrity" "sha512-E9gFLpOcwtJ2GiPg8S4w+9eaqFNgLO67Yyftcu1XgswAHBFiI7qAHTDYH21H4W88RKlf3sTNyHtzigbTenPUNg=="
-  "resolved" "https://registry.npmjs.org/@material/theme/-/theme-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/feature-targeting" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/tokens@^12.0.0":
-  "integrity" "sha512-yD8G+YvNsFt9+CGzUPWvy18Bn3a8+9eRSf95j7WZjBN2vEPCpOK5dInCLOfYDq/9a61K4Nlg39KomZNC7nyAtQ=="
-  "resolved" "https://registry.npmjs.org/@material/tokens/-/tokens-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/elevation" "^12.0.0"
-
-"@material/tooltip@^12.0.0":
-  "integrity" "sha512-YpXlidnWbymm5WdbteU4dSb+hdRMCrgsn1gO6xZ2HXfyiKX+2oqWvMZoSHMnCEc7oUvQteKybKrtD94T7CUeoA=="
-  "resolved" "https://registry.npmjs.org/@material/tooltip/-/tooltip-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/top-app-bar@^12.0.0":
-  "integrity" "sha512-myk8hnpKgvtns42v03syyFKRKo5L3T69bg19QvJWkju1S5M1T8fppUFWkckubI4wZ6wh+ccRigyGxwWbp0hdfw=="
-  "resolved" "https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/typography" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/touch-target@^12.0.0":
-  "integrity" "sha512-DArz1xm00iI6adyhBEFR+g2xmS6Jh5jMI1692YsjiL09lgXTvQwVbXCsp1FtHK21D+/KoblaT0L9sfBgnP2sAQ=="
-  "resolved" "https://registry.npmjs.org/@material/touch-target/-/touch-target-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/base" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "tslib" "^2.1.0"
-
-"@material/typography@^12.0.0":
-  "integrity" "sha512-NIAczsiUueV445+686qdVQC0QohIJDIOyVWbdNKnhkUmo23FcINLEcDMAtpvS0CJyqSHm8uWq1R585Wbx2kvdQ=="
-  "resolved" "https://registry.npmjs.org/@material/typography/-/typography-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/feature-targeting" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "tslib" "^2.1.0"
 
 "@nodelib/fs.scandir@2.1.4":
   "integrity" "sha512-33g3pMJk3bg5nXbL/+CY6I2eJDzZAni49PfJnL5fghPTggPvBd/pFNSgJsdAgWptuFu7qq/ERvOYFlhvsLTCKA=="
@@ -2614,14 +1885,7 @@
     "hoist-non-react-statics" "^3.3.0"
     "redux" "^4.0.0"
 
-"@types/react-transition-group@^4.2.0":
-  "integrity" "sha512-KibDWL6nshuOJ0fu8ll7QnV/LVTo3PzQ9aCPnRUYPfX7eZohHwLIdNHj7pftanREzHNP4/nJa8oeM73uSiavMQ=="
-  "resolved" "https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.2.tgz"
-  "version" "4.4.2"
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*", "@types/react@^16.8.6 || ^17.0.0":
+"@types/react@*":
   "integrity" "sha512-sX1HisdB1/ZESixMTGnMxH9TDe8Sk709734fEQZzCV/4lSu9kJCPbo2PbTRoZM+53Pp0P10hYVyReUueGwUi4A=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-17.0.19.tgz"
   "version" "17.0.19"
@@ -4224,11 +3488,6 @@
     "strip-ansi" "^6.0.0"
     "wrap-ansi" "^6.2.0"
 
-"clsx@^1.0.4":
-  "integrity" "sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA=="
-  "resolved" "https://registry.npmjs.org/clsx/-/clsx-1.1.1.tgz"
-  "version" "1.1.1"
-
 "co@^4.6.0":
   "integrity" "sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ="
   "resolved" "https://registry.npmjs.org/co/-/co-4.6.0.tgz"
@@ -4591,6 +3850,13 @@
   dependencies:
     "postcss" "^7.0.5"
 
+"css-box-model@^1.2.0":
+  "integrity" "sha512-a7Vr4Q/kd/aw96bnJG332W9V9LkJO69JRcaCYDUqjp6/z0w6VcZjgAcTbgFxEPfBgdnAwlh3iwu+hLopa+flJw=="
+  "resolved" "https://registry.npmjs.org/css-box-model/-/css-box-model-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "tiny-invariant" "^1.0.6"
+
 "css-color-keywords@^1.0.0":
   "integrity" "sha1-/qJhbcZ2spYmhrOvjb2+GAskTgU="
   "resolved" "https://registry.npmjs.org/css-color-keywords/-/css-color-keywords-1.0.0.tgz"
@@ -4681,14 +3947,6 @@
   dependencies:
     "mdn-data" "2.0.4"
     "source-map" "^0.6.1"
-
-"css-vendor@^2.0.8":
-  "integrity" "sha512-x9Aq0XTInxrkuFeHKbYC7zWY8ai7qJ04Kxd9MnvbC1uO5DagxoHQjm4JvG+vCdXOoFtCjbL2XSZfxmoYa9uQVQ=="
-  "resolved" "https://registry.npmjs.org/css-vendor/-/css-vendor-2.0.8.tgz"
-  "version" "2.0.8"
-  dependencies:
-    "@babel/runtime" "^7.8.3"
-    "is-in-browser" "^1.0.2"
 
 "css-what@^3.2.1":
   "integrity" "sha512-ACUm3L0/jiZTqfzRM3Hi9Q8eZqd6IK37mMWPLz9PJxkLWllYeRf+EHUSHYEtFop2Eqytaq1FizFVh7XfBnXCDQ=="
@@ -4825,11 +4083,6 @@
   "version" "2.3.0"
   dependencies:
     "cssom" "~0.3.6"
-
-"csstype@^2.5.2":
-  "integrity" "sha512-u1wmTI1jJGzCJzWndZo8mk4wnPTZd1eOIYTYvuEyOQGfmDl3TrabCCfKnOC86FZwW/9djqTl933UF/cS425i9A=="
-  "resolved" "https://registry.npmjs.org/csstype/-/csstype-2.6.17.tgz"
-  "version" "2.6.17"
 
 "csstype@^3.0.2":
   "integrity" "sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw=="
@@ -5138,14 +4391,6 @@
   "version" "0.2.0"
   dependencies:
     "utila" "~0.4"
-
-"dom-helpers@^5.0.1":
-  "integrity" "sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA=="
-  "resolved" "https://registry.npmjs.org/dom-helpers/-/dom-helpers-5.2.1.tgz"
-  "version" "5.2.1"
-  dependencies:
-    "@babel/runtime" "^7.8.7"
-    "csstype" "^3.0.2"
 
 "dom-serializer@0":
   "integrity" "sha512-2/xPb3ORsQ42nHYiSunXkDjPLBaEj/xTwUO4B7XCZQTRk7EBtTOPaygh10YAAh2OI1Qrp6NWfpAhzswj0ydt9g=="
@@ -6649,11 +5894,6 @@
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz"
   "version" "1.1.1"
 
-"hyphenate-style-name@^1.0.3":
-  "integrity" "sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ=="
-  "resolved" "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
-  "version" "1.0.4"
-
 "iconv-lite@0.4.24":
   "integrity" "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
   "resolved" "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
@@ -7009,11 +6249,6 @@
   "version" "4.0.1"
   dependencies:
     "is-extglob" "^2.1.1"
-
-"is-in-browser@^1.0.2", "is-in-browser@^1.1.3":
-  "integrity" "sha1-Vv9NtoOgeMYILrldrX3GLh0E+DU="
-  "resolved" "https://registry.npmjs.org/is-in-browser/-/is-in-browser-1.1.3.tgz"
-  "version" "1.1.3"
 
 "is-module@^1.0.0":
   "integrity" "sha1-Mlj7afeMFNW4FdZkM2tM/7ZEFZE="
@@ -7835,76 +7070,6 @@
     "json-schema" "0.2.3"
     "verror" "1.10.0"
 
-"jss-plugin-camel-case@^10.5.1":
-  "integrity" "sha512-+ioIyWvmAfgDCWXsQcW1NMnLBvRinOVFkSYJUgewQ6TynOcSj5F1bSU23B7z0p1iqK0PPHIU62xY1iNJD33WGA=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-camel-case/-/jss-plugin-camel-case-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "hyphenate-style-name" "^1.0.3"
-    "jss" "10.7.1"
-
-"jss-plugin-default-unit@^10.5.1":
-  "integrity" "sha512-tW+dfYVNARBQb/ONzBwd8uyImigyzMiAEDai+AbH5rcHg5h3TtqhAkxx06iuZiT/dZUiFdSKlbe3q9jZGAPIwA=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-default-unit/-/jss-plugin-default-unit-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "jss" "10.7.1"
-
-"jss-plugin-global@^10.5.1":
-  "integrity" "sha512-FbxCnu44IkK/bw8X3CwZKmcAnJqjAb9LujlAc/aP0bMSdVa3/MugKQRyeQSu00uGL44feJJDoeXXiHOakBr/Zw=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-global/-/jss-plugin-global-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "jss" "10.7.1"
-
-"jss-plugin-nested@^10.5.1":
-  "integrity" "sha512-RNbICk7FlYKaJyv9tkMl7s6FFfeLA3ubNIFKvPqaWtADK0KUaPsPXVYBkAu4x1ItgsWx67xvReMrkcKA0jSXfA=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-nested/-/jss-plugin-nested-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "jss" "10.7.1"
-    "tiny-warning" "^1.0.2"
-
-"jss-plugin-props-sort@^10.5.1":
-  "integrity" "sha512-eyd5FhA+J0QrpqXxO7YNF/HMSXXl4pB0EmUdY4vSJI4QG22F59vQ6AHtP6fSwhmBdQ98Qd9gjfO+RMxcE39P1A=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-props-sort/-/jss-plugin-props-sort-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "jss" "10.7.1"
-
-"jss-plugin-rule-value-function@^10.5.1":
-  "integrity" "sha512-fGAAImlbaHD3fXAHI3ooX6aRESOl5iBt3LjpVjxs9II5u9tzam7pqFUmgTcrip9VpRqYHn8J3gA7kCtm8xKwHg=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "jss" "10.7.1"
-    "tiny-warning" "^1.0.2"
-
-"jss-plugin-vendor-prefixer@^10.5.1":
-  "integrity" "sha512-1UHFmBn7hZNsHXTkLLOL8abRl8vi+D1EVzWD4WmLFj55vawHZfnH1oEz6TUf5Y61XHv0smdHabdXds6BgOXe3A=="
-  "resolved" "https://registry.npmjs.org/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "css-vendor" "^2.0.8"
-    "jss" "10.7.1"
-
-"jss@^10.5.1", "jss@10.7.1":
-  "integrity" "sha512-5QN8JSVZR6cxpZNeGfzIjqPEP+ZJwJJfZbXmeABNdxiExyO+eJJDy6WDtqTf8SDKnbL5kZllEpAP71E/Lt7PXg=="
-  "resolved" "https://registry.npmjs.org/jss/-/jss-10.7.1.tgz"
-  "version" "10.7.1"
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "csstype" "^3.0.2"
-    "is-in-browser" "^1.1.3"
-    "tiny-warning" "^1.0.2"
-
 "jsx-ast-utils@^2.4.1 || ^3.0.0", "jsx-ast-utils@^3.1.0":
   "integrity" "sha512-EIsmt3O3ljsU6sot/J4E1zDRxfBNrhjyf/OKjlydwgEimQuznlM4Wv7U+ueONJMyEn1WRE0K8dhi3dVAXYT24Q=="
   "resolved" "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.0.tgz"
@@ -8205,60 +7370,6 @@
   dependencies:
     "object-visit" "^1.0.0"
 
-"material-components-web@12.0.0":
-  "integrity" "sha512-gb4H86UvBOxXSo1OZuzehW1sbGrDBo6P97cTOj+v+xbuKmRRXZVfYeeq1vIMZWC165gx+q2+rvHthhpk1KWM9A=="
-  "resolved" "https://registry.npmjs.org/material-components-web/-/material-components-web-12.0.0.tgz"
-  "version" "12.0.0"
-  dependencies:
-    "@material/animation" "^12.0.0"
-    "@material/auto-init" "^12.0.0"
-    "@material/banner" "^12.0.0"
-    "@material/base" "^12.0.0"
-    "@material/button" "^12.0.0"
-    "@material/card" "^12.0.0"
-    "@material/checkbox" "^12.0.0"
-    "@material/chips" "^12.0.0"
-    "@material/circular-progress" "^12.0.0"
-    "@material/data-table" "^12.0.0"
-    "@material/density" "^12.0.0"
-    "@material/dialog" "^12.0.0"
-    "@material/dom" "^12.0.0"
-    "@material/drawer" "^12.0.0"
-    "@material/elevation" "^12.0.0"
-    "@material/fab" "^12.0.0"
-    "@material/feature-targeting" "^12.0.0"
-    "@material/floating-label" "^12.0.0"
-    "@material/form-field" "^12.0.0"
-    "@material/icon-button" "^12.0.0"
-    "@material/image-list" "^12.0.0"
-    "@material/layout-grid" "^12.0.0"
-    "@material/line-ripple" "^12.0.0"
-    "@material/linear-progress" "^12.0.0"
-    "@material/list" "^12.0.0"
-    "@material/menu" "^12.0.0"
-    "@material/menu-surface" "^12.0.0"
-    "@material/notched-outline" "^12.0.0"
-    "@material/radio" "^12.0.0"
-    "@material/ripple" "^12.0.0"
-    "@material/rtl" "^12.0.0"
-    "@material/segmented-button" "^12.0.0"
-    "@material/select" "^12.0.0"
-    "@material/shape" "^12.0.0"
-    "@material/slider" "^12.0.0"
-    "@material/snackbar" "^12.0.0"
-    "@material/switch" "^12.0.0"
-    "@material/tab" "^12.0.0"
-    "@material/tab-bar" "^12.0.0"
-    "@material/tab-indicator" "^12.0.0"
-    "@material/tab-scroller" "^12.0.0"
-    "@material/textfield" "^12.0.0"
-    "@material/theme" "^12.0.0"
-    "@material/tokens" "^12.0.0"
-    "@material/tooltip" "^12.0.0"
-    "@material/top-app-bar" "^12.0.0"
-    "@material/touch-target" "^12.0.0"
-    "@material/typography" "^12.0.0"
-
 "md5.js@^1.3.4":
   "integrity" "sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg=="
   "resolved" "https://registry.npmjs.org/md5.js/-/md5.js-1.3.5.tgz"
@@ -8282,6 +7393,11 @@
   "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
   "resolved" "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
+
+"memoize-one@^5.1.1":
+  "integrity" "sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q=="
+  "resolved" "https://registry.npmjs.org/memoize-one/-/memoize-one-5.2.1.tgz"
+  "version" "5.2.1"
 
 "memory-fs@^0.4.1":
   "integrity" "sha1-OpoguEYlI+RHz7x+i7gO1me/xVI="
@@ -9278,11 +8394,6 @@
   dependencies:
     "ts-pnp" "^1.1.6"
 
-"popper.js@1.16.1-lts":
-  "integrity" "sha512-Kjw8nKRl1m+VrSFCoVGPph93W/qrSO7ZkqPpTf7F4bk/sqcfWK019dWBUpE/fBOsOQY1dks/Bmcbfn1heM/IsA=="
-  "resolved" "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1-lts.tgz"
-  "version" "1.16.1-lts"
-
 "portfinder@^1.0.26":
   "integrity" "sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA=="
   "resolved" "https://registry.npmjs.org/portfinder/-/portfinder-1.0.28.tgz"
@@ -10066,7 +9177,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.6.2", "prop-types@^15.7.2":
+"prop-types@^15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -10193,6 +9304,11 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.2.tgz"
   "version" "1.2.2"
 
+"raf-schd@^4.0.2":
+  "integrity" "sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ=="
+  "resolved" "https://registry.npmjs.org/raf-schd/-/raf-schd-4.0.3.tgz"
+  "version" "4.0.3"
+
 "raf@^3.4.1":
   "integrity" "sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA=="
   "resolved" "https://registry.npmjs.org/raf/-/raf-3.4.1.tgz"
@@ -10242,6 +9358,19 @@
     "regenerator-runtime" "^0.13.7"
     "whatwg-fetch" "^3.4.1"
 
+"react-beautiful-dnd@13.1.0":
+  "integrity" "sha512-aGvblPZTJowOWUNiwd6tNfEpgkX5OxmpqxHKNW/4VmvZTNTbeiq7bA3bn5T+QSF2uibXB0D1DmJsb1aC/+3cUA=="
+  "resolved" "https://registry.npmjs.org/react-beautiful-dnd/-/react-beautiful-dnd-13.1.0.tgz"
+  "version" "13.1.0"
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "css-box-model" "^1.2.0"
+    "memoize-one" "^5.1.1"
+    "raf-schd" "^4.0.2"
+    "react-redux" "^7.2.0"
+    "redux" "^4.0.4"
+    "use-memo-one" "^1.1.1"
+
 "react-dev-utils@^11.0.3":
   "integrity" "sha512-dx0LvIGHcOPtKbeiSUM4jqpBl3TcY7CDjZdfOIcKeznE7BWr9dg0iPG90G5yfVQ+p/rGNMXdbfStvzQZEVEi4A=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-11.0.4.tgz"
@@ -10272,7 +9401,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.6.0":
+"react-dom@*", "react-dom@^16.8.5 || ^17.0.0", "react-dom@^17.0.2", "react-dom@>= 16.8.0":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -10296,17 +9425,17 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react-is@^16.8.0 || ^17.0.0", "react-is@^17.0.1", "react-is@>= 16.8.0":
-  "integrity" "sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA=="
-  "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.1.tgz"
-  "version" "17.0.1"
-
 "react-is@^16.8.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react-redux@7.2.4":
+"react-is@^17.0.1", "react-is@>= 16.8.0":
+  "integrity" "sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA=="
+  "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.1.tgz"
+  "version" "17.0.1"
+
+"react-redux@^7.2.0", "react-redux@7.2.4":
   "integrity" "sha512-hOQ5eOSkEJEXdpIKbnRyl04LhaWabkDPV+Ix97wqQX3T3d2NQ8DUblNXXtNMavc7DpswyQM6xfaN4HQDKNY2JA=="
   "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-7.2.4.tgz"
   "version" "7.2.4"
@@ -10389,17 +9518,7 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react-transition-group@^4.4.0":
-  "integrity" "sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg=="
-  "resolved" "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.2.tgz"
-  "version" "4.4.2"
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "dom-helpers" "^5.0.1"
-    "loose-envify" "^1.4.0"
-    "prop-types" "^15.6.2"
-
-"react@*", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.2", "react@>= 16", "react@>= 16.8.0", "react@>=16.6.0", "react@17.0.2":
+"react@*", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.8.5 || ^17.0.0", "react@^17.0.2", "react@>= 16", "react@>= 16.8.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -10521,7 +9640,7 @@
     "indent-string" "^4.0.0"
     "strip-indent" "^3.0.0"
 
-"redux@^4.0.0", "redux@4.1.1":
+"redux@^4.0.0", "redux@^4.0.4", "redux@4.1.1":
   "integrity" "sha512-hZQZdDEM25UY2P493kPYuKqviVwZ58lEmGQNeQ+gXa+U0gYPUBf7NKYazbe3m+bs/DzM/ahN12DbF+NG8i0CWw=="
   "resolved" "https://registry.npmjs.org/redux/-/redux-4.1.1.tgz"
   "version" "4.1.1"
@@ -11706,7 +10825,7 @@
     "loader-utils" "^2.0.0"
     "schema-utils" "^2.7.0"
 
-"styled-components@>= 2", "styled-components@>=4.0.0 || >=5.0.0":
+"styled-components@^5.3.1", "styled-components@>= 2", "styled-components@>=4.0.0 || >=5.0.0":
   "integrity" "sha512-JThv2JRzyH0NOIURrk9iskdxMSAAtCfj/b2Sf1WJaCUsloQkblepy1jaCLX/bYE+mhYo3unmwVSI9I5d9ncSiQ=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.1.tgz"
   "version" "5.3.1"
@@ -11942,10 +11061,10 @@
   "resolved" "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz"
   "version" "0.3.0"
 
-"tiny-warning@^1.0.2":
-  "integrity" "sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA=="
-  "resolved" "https://registry.npmjs.org/tiny-warning/-/tiny-warning-1.0.3.tgz"
-  "version" "1.0.3"
+"tiny-invariant@^1.0.6":
+  "integrity" "sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw=="
+  "resolved" "https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.1.0.tgz"
+  "version" "1.1.0"
 
 "tmpl@1.0.x":
   "integrity" "sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE="
@@ -12053,7 +11172,7 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   "version" "1.14.1"
 
-"tslib@^2.0.3", "tslib@^2.1.0":
+"tslib@^2.0.3":
   "integrity" "sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
   "version" "2.1.0"
@@ -12291,6 +11410,11 @@
   dependencies:
     "punycode" "1.3.2"
     "querystring" "0.2.0"
+
+"use-memo-one@^1.1.1":
+  "integrity" "sha512-u2qFKtxLsia/r8qG0ZKkbytbztzRb317XCkT7yP8wxL0tZ/CzK2G+WWie5vWvpyeP7+YoPIwbJoIHJ4Ba4k0oQ=="
+  "resolved" "https://registry.npmjs.org/use-memo-one/-/use-memo-one-1.1.2.tgz"
+  "version" "1.1.2"
 
 "use@^3.1.0":
   "integrity" "sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ=="

@@ -1,16 +1,18 @@
-import { ADD_TODO, COMPLETE_TODO, DELETE_TODO } from "../actions";
-
+import {  ADD_TODO, COMPLETE_TODO, DELETE_TODO } from "../actions";
 const initialState = [];
-//[{text : "내용" ,done : false}, {text : "내용" ,done : false}]
+
+// [{id : 'task-1' ,text : "내용" ,done : false}, {id: 'task-2', text : "내용" ,done : false}]}
 export default function todos(previousState = initialState, action){
 
     if(action.type === ADD_TODO){
-        return [...previousState, {text : action.text, done : false}]
+        return [...previousState, {id : action.id , text : action.text , done : false}]
     }
 
+
+
     if(action.type === COMPLETE_TODO){
-        return previousState.map((todo, index) => {
-            if(index === action.index){
+        return previousState.map((todo) => {
+            if(todo.id === action.todoId){
                 return {...todo, done : !todo.done}
             }
             return todo;
@@ -18,7 +20,7 @@ export default function todos(previousState = initialState, action){
     }
 
     if(action.type === DELETE_TODO){
-        return previousState.filter((_,index) => index !== action.index);
+        return previousState.filter((todo) => todo.id !== action.todoId);
     }
 
     return previousState;

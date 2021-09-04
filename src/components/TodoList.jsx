@@ -1,7 +1,7 @@
 import "../styles/todolist.scss"
 
 
-export default function TodoList({todos, complete, deleteTodo}){
+export default function TodoList({todosId, todos, complete, deleteTodo}){
     function click(index){
         complete(index);
     }

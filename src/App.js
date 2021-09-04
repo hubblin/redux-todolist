@@ -1,26 +1,35 @@
-import { useState, useEffect, useContext } from 'react';
-import { addTodo } from './redux/actions';
+import { DragDropContext } from 'react-beautiful-dnd';
 import './App.scss';
-import { useSelector, useDispatch} from "react-redux";
+
 
 import Header from './components/Header';
 import Footer from './components/Footer';
 import TodoListContainer from './containers/TodoListContainer';
 import TodoFormContainer from './containers/TodoFormContainer';
+import TodoColumnContainer from './containers/TodoColumnContainer';
 
 
 function App() {
+
+  const onDragEnd = result => {
+
+  }
+
   return (
+    
     <div className="App">
       <Header/>
 
       <div className="contents">
         <TodoFormContainer/>
-        <TodoListContainer/>
+        <DragDropContext onDragEnd={onDragEnd}>
+          <TodoColumnContainer/>
+        </DragDropContext>
       </div>
       
       <Footer/>
     </div>
+  
   );
 }
 
