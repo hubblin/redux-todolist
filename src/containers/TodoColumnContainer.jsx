@@ -20,8 +20,8 @@ export default function TodoColumnContainer(){
     console.log(mycolums)
 
     return (
-        <>
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
             {mycolums.map((colum, index) => <Column key={colum.id} id={colum.id}  todos={colum.taskIds} title={colum.title} add={add}/>)}
-        </>
+        </div>
     )
 }

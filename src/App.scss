@@ -1,12 +1,9 @@
-$desktop : (min-width : 700px);
 .App{
     .contents{
-        margin: 0 auto 5px;
-        width : calc(100% - 20px);
+        margin : 0 auto;
         
 
-        @media  (min-width: 620px) {
-            width : 600px;
-        }
+
+
     }
 }

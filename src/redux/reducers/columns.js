@@ -1,4 +1,4 @@
-import {ADD_COLUMN, ADD_TASKS, DELETE_COLUMN} from '../actions';
+import {ADD_COLUMN, ADD_TASKS, DELETE_COLUMN, DELETE_TASKS} from '../actions';
 const initialState = [];
 
 export default function columns(previousState = initialState , action){
@@ -11,6 +11,15 @@ export default function columns(previousState = initialState , action){
             if(column.id === action.columnId){
 
                 return {...column, taskIds : [...column.taskIds,  action.taskId]}
+            }
+            return column;
+        })
+    }
+
+    if(action.type === DELETE_TASKS){
+        return previousState.map(column => {
+            if(column.id === action.columnId){
+                return {...column, taskIds : column.taskIds.filter((taskId) => taskId !== action.taskId)}
             }
             return column;
         })

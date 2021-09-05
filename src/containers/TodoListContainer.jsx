@@ -1,9 +1,9 @@
 import {useCallback} from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import TodoList from "../components/TodoList";
-import { completeTodo, deleteTodo } from '../redux/actions';
+import { completeTodo, deleteTasks, deleteTodo } from '../redux/actions';
 
-export default function TodoListContainer({todoIds}) {
+export default function TodoListContainer({todoIds, columnId}) {
   const todos = useSelector((state) => state.todos);
  
 
@@ -16,7 +16,8 @@ export default function TodoListContainer({todoIds}) {
   
   const delete_todo = useCallback((index) => {
     dispatch(deleteTodo(index))
-  }, [dispatch])
+    dispatch(deleteTasks(columnId, index))
+  }, [dispatch, columnId])
 
   
   const myTodo = todos.map((todo) => {if(todoIds.includes(todo.id)){return todo} }).filter((element) => element !== undefined)

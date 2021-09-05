@@ -17,20 +17,21 @@ export function addTodo(text, id){
 export function completeTodo(todoId){
     return{
         type: COMPLETE_TODO,
-        id : todoId
+        todoId
     }
 }
 
 export function deleteTodo(todoId){
     return {
         type: DELETE_TODO,
-        id : todoId
+        todoId
     }
 }
 
 //컬럼을 지정하는 액션
 export const ADD_COLUMN = "ADD_COLUMN";
 export const ADD_TASKS = "ADD_TASKS";
+export const DELETE_TASKS = "DELETE_TASKS";
 export const DELETE_COLUMN = "DELETE_COLUMN";
 
 export function addColumn(text, id){
@@ -45,6 +46,14 @@ export function addColumn(text, id){
 export function addTasks(columnId, taskId ){
     return{
         type : ADD_TASKS,
+        columnId,
+        taskId
+    }
+}
+
+export function deleteTasks(columnId, taskId){
+    return {
+        type: DELETE_TASKS,
         columnId,
         taskId
     }
