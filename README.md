@@ -15,7 +15,7 @@
 ## 개요
 - 서비스 : redux todo-list
 - 개발 환경 : visual code
-- 개발 언어 : javascript, scss, html
+- 개발 언어 : javascript, css, html
 - 기타 환경 : git
 - 외부 지원 : react, redux, scss, babel, webpack 등
 
