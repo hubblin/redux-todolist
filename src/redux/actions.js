@@ -1,5 +1,3 @@
-import { useSelector } from "react-redux";
-
 //할 일 텍스트를 저장하는 액션
 export const ADD_TODO = "ADD_TODO";
 export const COMPLETE_TODO = "COMPLETE_TODO";

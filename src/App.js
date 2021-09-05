@@ -4,7 +4,6 @@ import './App.scss';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import TodoListContainer from './containers/TodoListContainer';
 import TodoFormContainer from './containers/TodoFormContainer';
 import TodoColumnContainer from './containers/TodoColumnContainer';
 

@@ -20,7 +20,7 @@ export default function TodoListContainer({todoIds, columnId}) {
   }, [dispatch, columnId])
 
   
-  const myTodo = todos.map((todo) => {if(todoIds.includes(todo.id)){return todo} }).filter((element) => element !== undefined)
+  const myTodo = todos.map((todo) => {if(todoIds.includes(todo.id)){return todo} return undefined;}).filter((element) => element !== undefined)
   
 
   return <TodoList todos={myTodo} complete={complete} deleteTodo={delete_todo}/>;
